@@ -1,0 +1,34 @@
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between input and button */
+    margin-bottom: 16px; /* Space between form and todo list */
+}
+
+input {
+    flex: 1; /* Take up remaining space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 8px;
+}
